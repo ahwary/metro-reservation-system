@@ -40,8 +40,12 @@ Build artifacts (`build/`, `out/`, `.class`, `.jar`) and local NetBeans private 
 
 I worked on the desktop app structure, JavaFX screens/controllers, reservation logic, and database schema.
 
+## Screenshot Status
+
+The app requires a compatible JavaFX runtime. A local screenshot attempt on an Apple Silicon Mac failed because the bundled JavaFX native libraries were built for x86_64. Screenshots should be captured from NetBeans or a machine with matching JavaFX libraries after setup.
+
 ## Limitations and Next Steps
 
-- Add real screenshots of each JavaFX screen after running locally.
+- Add real screenshots of each JavaFX screen after running with compatible JavaFX dependencies.
 - Move credentials/configuration into environment variables or a local config file.
 - Add setup notes for JavaFX dependencies on Windows/macOS/Linux.
